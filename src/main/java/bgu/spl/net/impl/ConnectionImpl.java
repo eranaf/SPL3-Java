@@ -29,7 +29,7 @@ public class ConnectionImpl<T> implements Connections {
     @Override
     public void disconnect(int connectionId) {
         ClientHashMap.remove(connectionId);
-        //remove from List channel?
+        //remove from List channel
 
     }
 }
